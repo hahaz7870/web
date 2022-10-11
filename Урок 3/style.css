@@ -1,0 +1,55 @@
+body{
+    background-color: antiquewhite;
+}
+.avatar{
+    width: 200px;
+    height: 200px;
+    border-radius: 80px;
+}
+hr{
+    border-style: none;
+    border-top: dotted;
+    border-color: goldenrod;
+    border-width: 6px;
+    width: 20%;
+}
+.custom-ul {
+    list-style-type: "💩";
+}
+a{
+    color: gray;
+    text-decoration: none;
+}
+a:hover{
+    color: cornflowerblue;
+    text-decoration: underline;
+}
+
+
+
+
+
+
+/* body{
+    background-color: red;
+    text-align: center;
+} */
+/* . - обращение к классу */
+/* .size-up{
+    font-size: 50pt;
+} */
+
+/* # - обращение к id */
+/* #red{
+    color: green;
+} */
+ /* .rotate{
+    /* Трансформация поворот на 45 градусов */
+      /* transform: rotate(45deg); 
+}    */
+
+/* .gray-cube{
+    width: 100px;
+    height: 100px;
+    background-color: gray;
+} */
