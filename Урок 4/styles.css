@@ -1,0 +1,127 @@
+/* .purple{
+    width: 100px;
+    height: 100px; */
+    /* rgba(red, green, blue, альфа - коэффицент прозрачности */
+    /* background-color: rgba(147,31,31,0.5);
+    opacity: 0.5; */
+
+/* } */
+/* .grey{
+    width: 200px;
+    height: 200px;
+    background-color: green;
+    margin: 0px auto; 
+} */
+
+
+
+
+
+
+
+
+
+
+
+/* .image{ */
+    /* no-repeat - картинка одна а не много */
+    /* background: url(https://media.tenor.com/J6vqRBPOStwAAAAd/chiens-funny-animals.gif)  no-repeat center / cover;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    margin: 0 auto;
+} 
+.opacity{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background-color: aqua;
+    opacity: 0.5;
+}
+
+.rectangle{
+    height: 100px;
+    width: 200px;
+}
+.warning{
+    background-color: deeppink;
+}
+.info{
+    background-color: cornflowerblue;
+}
+.rectangle h1{
+    text-align: center;
+    padding-top: 20px;
+}
+.symbol::before{
+    content: "⚠";
+}
+.symbol::after{
+    content: "⚠";
+} */
+
+
+
+
+
+
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #23202a;
+    text-align: center;
+}
+a.underline{
+     font-size: 6vw; /* размер шрифта относительно ширины браузера */
+    text-decoration: none;
+    font-weight: bold;
+    color: #e76f51;
+    position: relative;
+     transition: color 0.8s, text-shadow 0.8s; /* для плавного изменения тени и света */
+}
+a.underline:after{
+    content: '';
+    position: absolute;
+    bottom: 0px;
+    background: #2a9d8f;
+    height: 20%;
+    width: 0%;
+    z-index: -1;
+    transition: width 0.8s, opacity 0.8s, box-shadow 0.8s;
+    border-radius: 100px;
+    opacity: 0;
+    box-shadow: 0 0 16px rgba(42, 157, 143, 0);
+}
+a.underline:hover{
+     color: #f4a261; /* светлее при наведении */
+    text-shadow: 0 0 16px rgba(244, 162, 97, 0.64);
+}
+a.underline:hover:after{
+    width: 100%;
+    opacity: 1;
+    box-shadow: 0 0 16px rgba(42, 157, 143, 0.88);
+}
+a.underline_a:after{
+    right: 0;
+}
+a.underline_a:hover:after{
+    right: auto;
+    left: 0;
+}
+a.underline_b:after{
+    left: 0;
+}
+a.underline_b:hover:after{
+    left: auto;
+    right: 0;
+}
+a.underline_c:after{
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
+
+
+
+
