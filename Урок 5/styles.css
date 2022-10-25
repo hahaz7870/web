@@ -1,0 +1,99 @@
+body{
+    background-color: rgb(255, 255, 255);
+}
+button{
+background-color: gray;
+border-radius: 50px;
+font-family: Arial black;
+width: 167px;
+height: 52px;
+color: azure;
+border: 10px darkslategray solid;
+}
+.fig1{
+position: absolute;
+width: 45px;
+height: 40px;
+left: 47px;
+top: 39px;
+background: #F8B3B3;
+}
+
+.fig2{
+position: absolute;
+width: 79px;
+height: 39px;
+left: 100px;
+top: 39px;
+background: #F8B3B3;
+}
+.fig3{
+    position: absolute;
+width: 61px;
+height: 17px;
+left: 232px;
+top: 216px;
+
+background: #2CFB7F;
+
+}
+.fig4{
+    position: absolute;
+width: 574px;
+height: 77px;
+left: 414px;
+top: 214px;
+
+background: #C87777;
+    
+}
+.fig5{
+    position: absolute;
+width: 390px;
+height: 36px;
+left: 414px;
+top: 302px;
+
+background: #F0F351;
+    
+}
+.fig6{
+    position: absolute;
+width: 236px;
+height: 27px;
+left: 414px;
+top: 405px;
+
+background: #58A5FF;
+    
+}
+.fig7{
+    position: absolute;
+width: 230px;
+height: 27px;
+left: 720px;
+top: 405px;
+
+background: #58A5FF;
+    
+}
+.fig8{
+    position: absolute;
+width: 95px;
+height: 27px;
+left: 1017px;
+top: 405px;
+
+background: #58A5FF;
+    
+}
+.fig9{
+    position: absolute;
+width: 621px;
+height: 23px;
+left: 414px;
+top: 555px;
+
+background: #F72ED6;
+    
+}
