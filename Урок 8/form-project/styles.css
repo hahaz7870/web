@@ -5,12 +5,13 @@
 }
 
 body{
-    background-image: linear-gradient(90deg, #1F0D8C, #FFFFFF), url(https://media.tenor.com/O8VxGVRV5NAAAAAC/spongebob-meme.gif);
+    background-image: linear-gradient(90deg, #1f0d8c90, #FFFFFF90), url(https://media.tenor.com/O8VxGVRV5NAAAAAC/spongebob-meme.gif);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    color: darkorange;
+    color: white;
     padding: 20px 0;
+    font-size: 22px;
 }
 
 form{
@@ -20,6 +21,7 @@ form{
     width: 50%;
     padding: 50px 100px;
     text-align: center;
+    margin: auto;
 }
 
 h2{
@@ -60,5 +62,4 @@ button{
     background-image: linear-gradient(purple, blue);
     cursor: pointer;
     border-radius: 8px;
-
 }
