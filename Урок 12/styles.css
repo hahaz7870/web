@@ -244,7 +244,10 @@ h1{
 
 /* footer */
 .footer{
-    background-color: #EFEFEF;
+    /* background-color: #EFEFEF; */
+    background-color: #ffffff;
+opacity: 0.8;
+background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #ffffff 10px ), repeating-linear-gradient( #e8e3e355, #e8e3e3 );
     padding: 18px 25px;
     display: flex;
     justify-content: space-between;
@@ -430,8 +433,23 @@ box-shadow:  8px 8px 12px #3fe000,
     filter: invert(21%) sepia(70%) saturate(2907%) hue-rotate(84deg) brightness(89%) contrast(106%);
 }
 
-.zvezdochka{
-    font-size: 22px;
+.news-text{
+    font-size: 24px;
+}
+
+hr{
+    margin: 50px 0;
+}
+
+.glass{
+    background: rgba( 255, 255, 255, 0.2 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 5.5px );
+-webkit-backdrop-filter: blur( 5.5px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+padding: 30px;
+margin-bottom: 30px;
 }
 
 
