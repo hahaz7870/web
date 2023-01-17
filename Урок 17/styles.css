@@ -1,0 +1,47 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    color: #363434;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+}
+
+.header, .footer{
+    background-color: #4b9e83;
+    color: #fff;
+}
+
+#header .container-fluid{
+    padding: 2% 10% 7%;
+}
+
+.nav-item{
+    padding: 0 18px;
+}
+
+.header-content{
+    padding-top: 2rem;
+}
+
+h1{
+    font-size: 3.5rem;
+}
+
+.download-btn{
+    margin: 5% 3% 5% 0;
+}
+
+.title-img{
+    width: 60%;
+    transform: rotate(20deg);
+}
+
+.container-fluid{
+    padding: 7% 10%;
+}
+
+.feature-img{
+    width: 70px;
+}
