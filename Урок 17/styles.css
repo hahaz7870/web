@@ -8,9 +8,12 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 900;
 }
 
-.header, .footer{
+.header, 
+.footer,
+.testimonials{
     background-color: #4b9e83;
     color: #fff;
+    padding-bottom: 3px;
 }
 
 #header .container-fluid{
@@ -22,7 +25,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .header-content{
-    padding-top: 2rem;
+    padding: 5% 10%;
+
 }
 
 h1{
@@ -45,3 +49,30 @@ h1{
 .feature-img{
     width: 70px;
 }
+
+.carousel-text{
+    font-size: 22px;
+    padding: 7% 10%;
+}
+
+.option{
+    display: flex;
+    justify-content: space-around;
+}
+
+.faq{
+    margin: 5% 0;
+}
+
+.footer{
+    padding: 3%;
+}
+
+.card{
+    /* margin: 1%; */
+}
+
+
+
+
+
