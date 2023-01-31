@@ -56,22 +56,33 @@ h1{
 }
 
 .option{
-    display: flex;
-    justify-content: space-around;
+    padding: 5% 18%;
 }
 
 .faq{
-    margin: 5% 0;
+    padding: 5% 0;
+    background-color: #4b9e83;
 }
 
-.footer{
+footer{
     padding: 3%;
+    background-color: #4b9e83;
+
 }
 
 .card{
     /* margin: 1%; */
 }
 
+.accord{
+    padding: 0 5%;
+}
+
+.footer-text {
+    color: white;
+    font-size: 24px;
+    text-align: center;
+}
 
 
 

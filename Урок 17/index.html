@@ -116,13 +116,34 @@
         </section>
         <!-- Опции -->
         <section class="option">
-          <div class="row">
+          <!-- Modal -->
+          <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="staticBackdropLabel">Вы выиграли мэрс</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, nostrum aliquam! Magni perferendis provident aperiam est recusandae cupiditate saepe fuga doloribus, reiciendis quam enim voluptate! Corporis non reiciendis adipisci perspiciatis!
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                  <button type="button" class="btn btn-primary">Understood</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row justify-content-around text-center">
           <div class="card" style="width: 18rem;">
             <img src="https://media.tenor.com/cwaFFC4woe0AAAAd/dog-stare-zoom.gif" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">Card title</h5>
               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+              <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                Launch static backdrop modal
+              </button>
+
             </div>
           </div>
           <div class="card" style="width: 18rem;">
@@ -130,21 +151,27 @@
             <div class="card-body">
               <h5 class="card-title">Card title</h5>
               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+              <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                Launch static backdrop modal
+              </button>
+
             </div>
           </div>
+
           <div class="card" style="width: 18rem;">
             <img src="https://media.tenor.com/twOxYKWAI5IAAAAC/dog.gif" class="card-img-top" alt="..." width="262px" height="262px" cover>
             <div class="card-body">
               <h5 class="card-title">Card title</h5>
               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+              <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                Launch static backdrop modal
+              </button>
             </div>
             </div>
           </div>
         </section>
         <section class="faq">
-          <div class="accordion" id="accordionExample">
+          <div class="accordion accord" id="accordionExample">
             <div class="accordion-item">
               <h2 class="accordion-header" id="headingOne">
                 <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">

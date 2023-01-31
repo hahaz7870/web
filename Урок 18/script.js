@@ -38,7 +38,7 @@ const name = "Иван";
 const job = "учитель";
 const fjb = 2014;
 const today = 2023;
-console.log("Прошу внимания, это ваш новый" + job, name + ".Его стаж работы " + (today - fjb) + " лет" )
+console.log("Прошу внимания, это ваш новый " + job, name + ". Его стаж работы " + (today - fjb) + " лет" )
 
 
 
