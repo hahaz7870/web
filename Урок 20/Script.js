@@ -79,7 +79,11 @@ massiv[3] = "Элемент2";
 
 console.log(massiv);
 
-const firstName= 'Глеб';
+const firstName = 'Глеб';
 const teacherInfo = [firstName, 2023-2008, "ученик", student];
 console.log(teacherInfo);
-Слайд 44
+
+
+function calcAge{
+    
+}
