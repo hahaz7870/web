@@ -56,6 +56,9 @@ button{
   font-size: 39px;
   font-family: 'Montserrat', sans-serif;
   font-weight: 500;
+  position: relative;
+  top: -9px;
+  color: #141A3C;
 }
 
 .nav-button{
@@ -74,7 +77,7 @@ button{
   width: 500px;
   height: 300px;
   background-color: #20295B;
-  margin: 0px 187px;
+  margin: -59px 187px;
   border-radius: 20px;
 }
 
@@ -82,7 +85,108 @@ button{
   width: 500px;
   height: 300px;
   background-color: #20295B;
-  margin: 0px 800px ;
+  margin: -300px 864px ;
+  border-radius: 20px;
 
 }
+
+.sign{
+  color: white;
+  font-size: 150px;
+  text-align: center;
+  margin-bottom: 0;
+  margin-top: 0;
+  position: relative;
+  top: 65px;
+  font-family: 'Inter', sans-serif;
+}
+
+.hidden-number{
+  font-size: 35px;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  z-index: 0;
+}
+
+.more-less{
+  font-size: 35px;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  top: -30px;
+  position: relative;
+
+}
+
+.text-score{
+  position: relative;
+  top: -38px;
+  font-size: 35px;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.record{
+  position: relative;
+  top: -34px;
+  font-size: 35px;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.table-question{
+  padding: 1px 31px;
+}
+
+.play-again{
+  width: 1175px;
+  height: 80px;
+  background-color: #A000EB;
+  box-shadow: -5px 3px 14px #A000EB, 5px -5px 10px #A000EB;
+  border-radius: 14px;
+  position: absolute;
+  top: 130vh;
+  margin-left: 187px;
+  z-index: -1;
+}
+
+.play-text{
+  font-size: 35px;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  top: -20px;
+  position: relative;
+  font-weight: 400;
+}
+
+.cat{
+  position: absolute;
+  left: -175px;
+}
+
+.exclude3{
+  position: absolute;
+  bottom: -375px;
+  right: 60px;
+  filter: blur(7.5px);
+  z-index: -5;
+}
+
+.exclude4{
+top: 520px;
+right: 70px;
+border-radius: 50%;
+position: absolute;
+width: 202px;
+height: 202px;
+background-color: #E33DD2;
+z-index: -5;
+}
+
+
+
+
+
+
+
+
 
