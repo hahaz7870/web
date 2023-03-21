@@ -27,11 +27,11 @@
     <div class="container">
       <div class="nav-input">
       <p class="text-container">Введите число от 1 до 100</p>
-      <input type="text"></input>
+      <input type="text" class="inp"></input>
       </div>
       
       <div class="nav-button">
-        <button><p class="button-text">Проверить</p></button>
+        <button class="field-button" onclick="check_value()"><p class="button-text">Проверить</p></button>
         <div class="exclude4"></div>
       </div>
       <div class="exclude-2">
@@ -47,11 +47,10 @@
       </div>
       <div class="score">
         <div class="table-question">
-          <p class="hidden-number">Загаданное число :</p>
-          <span class="result__check__out"></span>
-          <p class="more-less">больше/меньше</p>
-          <p class="text-score">Счёт: ?</p>
-          <p class="record">Рекорд: ?</p>
+          <p class="hidden-number">Загаданное число: <span class="result__check__out"></span></p>
+          <p class="more-less"><span class="result__help__out">Больше/Меньше</span></p>
+          <p class="result__count__label">Счет: <span class="result__score__out"></span></p>
+          <p class="record">Рекорд: <span class="result__record__out"></span></p>
         </div>
       </div>
       <div class="play">
@@ -59,7 +58,7 @@
       </div>
       </div>
       <div class="box">
-      <img src="img/cat.png" alt="" class="cat">
+      <img src="img/CatB.png" alt="" class="cat">
       <div class="exclude3">
       <svg id="mySvg" width="175px" height="175px" viewBox="0 0 40 40">
         <circle cx="20" cy="20"  r="17.215494309189533" fill="transparent" stroke="#9319DE" stroke-dashoffset="20" stroke-dasharray="100" stroke-width="3" pathLength="50"></circle></svg>
@@ -68,6 +67,6 @@
 
 
   </main>
-  <Script src="Script.js"></Script>
+  <Script src="javaScript.js"></Script>
 </body>
 </html>

@@ -50,6 +50,14 @@ button{
   top: -117px;
   margin-left:870px;
   border-radius: 14px;
+  cursor: pointer;
+  outline: none;
+  transition: 0.2s all;
+}
+
+button:active{
+  transform: scale(0.93);
+            box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
 }
 
 .button-text{
@@ -117,7 +125,7 @@ button{
 
 }
 
-.text-score{
+.result__count__label{
   position: relative;
   top: -38px;
   font-size: 35px;
@@ -147,6 +155,7 @@ button{
   top: 130vh;
   margin-left: 187px;
   z-index: -1;
+
 }
 
 .play-text{
@@ -156,11 +165,12 @@ button{
   top: -20px;
   position: relative;
   font-weight: 400;
+  
 }
 
 .cat{
   position: absolute;
-  left: -175px;
+  left: -90px;
 }
 
 .exclude3{
@@ -181,6 +191,22 @@ height: 202px;
 background-color: #E33DD2;
 z-index: -5;
 }
+
+.play button:hover{
+  background-color:#7600AD;
+  box-shadow: -5px 3px 14px #7600AD, 5px -5px 10px #7600AD;
+}
+
+.field-button:hover{
+  background-color: #007BD4;
+}
+
+.field-button:active {
+  background-color: #9E20D9;
+}
+
+
+
 
 
 
