@@ -14,3 +14,29 @@ modalBtns.forEach((btn) =>{
 })
 
 close.addEventListener("click", closeModal);
+
+document.addEventListener("keydown", function(e){
+    if (!modal.classList.contains("hidden") && e.key == "Escape"){
+        closeModal()
+    }
+
+})
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,15 +1,20 @@
 .modal{
-    width: 40%;
-    height: 30%;
-    background-color: bisque;
-    border-radius: 20px;
+    width: 30%;
+    height: 70%;
+    /* border-radius: 20px; */
     position: absolute;
     top: 50%;
     left: 50%;
     z-index: 3;
-    padding: 25px;
-    padding-top: 50px;
+    /* padding: 25px; */
+    /* padding-top: 50px; */
     transform: translate(-50%, -50%);
+    background: rgb(255, 255, 255);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 9px );
+    -webkit-backdrop-filter: blur( 9px );
+    /* border-radius: 10px; */
+    /* border: 1px solid rgba( 255, 255, 255, 0.18 ); */
 }
 
 p{
@@ -19,3 +24,93 @@ p{
 .hidden{
     display: none;
 }
+
+.btn-box{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.btn{
+    background-color: #222;
+    border-radius: 70px;
+    border: none;
+    color: white;
+    padding: 30px 100px;
+    margin: 50px 20px;
+    cursor: pointer;
+}
+
+ .btn:hover{
+    animation: glow 8s linear infinite;
+ }
+
+.btn:first-child:hover{
+    background: linear-gradient(90deg, #010133,  #fd6284, #3f5c63, #010133);
+    background-size: 400%;
+}
+
+.btn:last-child:hover{
+    background: linear-gradient(90deg, #2d1246,  #899cbc, #54bed8, #2d1246);
+    background-size: 400%;
+}
+
+@keyframes glow{
+    0%{
+        background-position: 0%;
+    }
+    100%{
+        background-position: 400%;
+    }
+}
+
+.close{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: transparent;
+    border: none;
+    font-size: 35px;
+}
+
+.close:hover{
+    background: red;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+}
+
+.h1-text{
+    text-align: center;
+    font-family: 'Arial Black', sans-serif;
+}
+
+.h2-text{
+    position: relative;
+    top: -20px;
+   text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+.window{
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+    width: 400px;
+}
+
+.btn-text{
+    position: absolute;
+    left: 130px;
+    top: 435px;
+    width: 200px;
+    height: 50px;
+    border: none;
+    background: linear-gradient(to left, #faa77d, #f3795b);
+    color: white;
+    border-radius: 5px;
+    font-family: 'Roboto', sans-serif;
+}
+
