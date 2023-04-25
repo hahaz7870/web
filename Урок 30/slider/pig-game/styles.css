@@ -25,13 +25,19 @@ main{
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 5vh;
+    padding: 10vh;
     flex: 50%;
+
 }
 
 .dise{
     height: 13vh;
     position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 30%;
+    border-radius: 10px;
+    box-shadow: 0 1vh 2vh rgba(0, 0, 0, 0.25);
 }
 
 .name{
@@ -53,16 +59,39 @@ main{
 .current{
     background-color: rgb(199,54,95,0.8);
     border-radius: 2vh;
-    width: 65%;
-    align-items: center; 
+    width: 45%;
+    text-align: center;
     color: white;
     font-size: 3vh;
+    margin-top: auto;
 }
 
 .btn{
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
+    border: none;
+    background-color: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(200px);
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 3.8vh;
+}
+
+.btn-new{
+    top: 12%;
+}
+
+.btn-roll{
+    bottom: 27%;
+}
+
+.btn-hold{
+    bottom: 12%;
+}
+
+.hidden{
+    display: none;
 }
 
 
