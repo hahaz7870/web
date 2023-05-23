@@ -8,7 +8,7 @@ body{
 footer{
     width: 100%;
     height: 420px;
-    border-radius:100% 100% 0 0;
+    border-radius:30% 30% 0 0;
     background-color: #99A9B8;
     
     
@@ -97,6 +97,11 @@ header{
     background-color: black;
     border: none;
     cursor: pointer;
+    transition: 0.2s all;
+}
+
+.logo-button:active{
+    transform: scale(0.95);
 }
 
 .interior-text{
@@ -147,8 +152,8 @@ header{
     display: inline-block;
     width: 400px;
     height: 550px;
-    background-color: #99A9B8;
-    left: 5%;
+    background-color: #A9DCEC;
+    left: 6%;
 }
 
 .card-2{
@@ -156,8 +161,8 @@ header{
     display: inline-block;
     width: 390px;
     height: 550px;
-    background-color: #99A9B8;
-    left: 67px;
+    background-color: #A9DCEC;
+    left: 100px;
     
 
 }
@@ -167,7 +172,7 @@ header{
     display: inline-block;
     width: 400px;
     height: 550px;
-    background-color: #99A9B8;
+    background-color: #A9DCEC;
     left: 6%;
     
 
@@ -182,6 +187,18 @@ header{
     top: -30%;
     position: relative;
     left: -50px;
+}
+
+.card-img-1{
+    top: -30%;
+    position: relative;
+}
+
+.card-img-2{
+    top: -30%;
+    position: relative;
+    left: -80px;
+
 }
 
 .sell-text{
@@ -225,7 +242,7 @@ header{
 .arrow{
     position: absolute;
     z-index: 15;
-    top: 50%;
+    top: 40%;
     border: none;
     width: 40px;
     height: 70px;
@@ -345,7 +362,287 @@ header{
 }
 
 .text-chair{
+    position: relative;
     color: white;
+    top: -10px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 600;
+    padding: 0 15px;
+}
+
+.text-price{
+    position: relative;
+    top: -10px;
+    text-align: center;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 600;
+}
+
+.text-price-1{
+    position: relative;
+    top: -10px;
+    text-align: right;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 600;
+}
+
+.struck-text{
+    position: relative;
+    top: -48px;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.ad-container{
+    position: relative;
+    width: 74%;
+    height: 165px;
+    background-color: #1C1B1B;
+    top: 150px;
+    margin: auto;
+}
+
+.text-container{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10%;
+}
+
+.ad-text{
+    color: white;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 20px;
+}
+
+.RECENT-ARTICLES{
+    font-size: 16px;
+    color: #9A6437;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 600;
+    padding: 250px 0;
+    text-align: center;
+}
+
+.read-text{
+    position: relative;
+    text-align: center;
+    top: -280px;
+    font-size: 50px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 600;
+}
+
+.recent-hr{
+    color: #9A6437;
+    position: relative;
+    top: 278px;
+    margin-right: 41%;
+    width: 50px;
+}
+
+.articles-hr{
+    color: #9A6437;
+    position: relative;
+    top: -278px;
+    margin-left: 41%;
+    width: 50px;
+}
+
+.cart-1{
+    height: 500px;
+    width: 350px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid black;
+}
+
+.blok{
+    width: 350px;
+    height: 304px;
+    background-color: rgb(0, 0, 0);
+}
+
+.articles-container{
+    position: relative;
+    top: -270px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap:50px;
+    margin: auto;
+    justify-content: space-around;
+    width: fit-content;
+}
+
+.calendar-container{
+    height: 51px;
+    width: 50px;
+    background-color: #B47139;
+    position: absolute;
+    top: 54%;
+    margin: 0 30px;
+}
+
+.cal-box{
+    height: 47px;
+    width: 50px;
+    background-color: #ffffff;
+}
+
+.cal-num{
+    position: relative;
+    top: -60px;
+    font-size: 17px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 600;
+    text-align: center;
 }
 
 
+.cal-mon{
+    position: relative;
+    top: -80px;
+    font-size: 15px;
+    font-family: 'Nunito Sans', sans-serif;
+    padding: 0 10px;
+    text-align: center;
+}
+
+.name-text{
+    position: relative;
+    padding: 20px 50px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 14px;
+}
+
+.com-text{
+    position: relative;
+    top: -53px;
+    left: 170px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 14px;
+}
+
+.cal-text{
+    width: 90%;
+    font-size: 20px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 600;
+    position: relative;
+    top: -60px;
+    padding: 0 25px;
+}
+
+.footer-text{
+    position: relative;
+    text-align: center;
+    font-size: 35px;
+    font-family: 'Oswald', sans-serif;
+    color: #555555;
+    top: -50px;
+}
+
+.armchair-footer{
+    position: relative;
+    left: 41%;
+    top: 50px;
+}
+
+.join-text{
+    text-align: center;
+    font-size: 36px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 600;
+    top: -50px;
+    position: relative;
+}
+
+.eu-text{
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 18px;
+    margin: auto;
+    text-align: center;
+    width: 30%;
+    top: -70px;
+    position: relative;
+
+}
+
+.form{
+    text-align: center;
+    top: -40px;
+    position: relative;
+    padding: 5px;
+}
+
+.form-footer{
+    width: 300px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: #99A9B8;
+}
+
+.button-footer{
+    position: relative;
+    width: 150px;
+    height: 45px;
+    background-color: #99A9B8;
+    border-radius: 5px;
+    color: rgb(0, 0, 0) !important;
+    transform: 0.2s all;
+    transition: 9999999s;
+    cursor: pointer;
+}
+
+.button-footer:active{
+    transform: scale(0.98);
+    transition: 0s;
+}
+
+.button-footer:focus{
+    background-color: #23e564;
+}
+
+.fot{
+    width: 100%;
+    height: 50px;
+}
+
+.fot-text{
+    position: relative;
+    top: 20%;
+    padding: 0 150px;
+    font-size: 12px;
+    font-family: 'Nunito Sans', sans-serif;
+
+}
+
+.fot-container{
+    position: relative;
+    top: -28px;
+    text-align: right;
+    padding: 0 150px;
+}
+
+.text-fot{
+    padding: 5px;
+}
+
+.blok-btn{
+    height: 40px;
+    width: 140px;
+    position: relative;
+    margin: 0 25px ;
+    top: -70px;
+    background-color: #fff;
+    cursor: pointer;
+    transition: 0.2s all;
+}
+
+.blok-btn:active{
+    transform: scale(0.95);
+}
+
+.ad-svg{
+    padding: 0 10px;
+}
